@@ -58,6 +58,39 @@ nav li:hover{
     background-position: center;
 
 }
+.songItem{
+    height: 35px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+}
+.timeStamp{
+    margin: 0px 23px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+.songInfo img{
+    width: 42px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in ;
+}
+.songInfo{
+    font-family: 'Playball', cursive;
+}
 /* bottom class style starts  */
 /* .bottom{
     position: fixed;
@@ -78,7 +111,8 @@ nav li:hover{
     flex-direction: column;
 }
 #myProgressBar{
-    width: 95vw;
+    width: 85vw;
+    cursor: pointer;
 }
 .icons i:hover{
     color: rgb(215, 240, 191);
