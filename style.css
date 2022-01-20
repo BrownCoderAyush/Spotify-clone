@@ -80,6 +80,10 @@ nav li:hover{
 .timeStamp i{
     cursor: pointer;
 }
+.songListPlay{
+    cursor: pointer;
+    padding: 0 18px;
+}
 .songInfo img{
     width: 42px;
     position: absolute;
